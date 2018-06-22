@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "xlsx": "node ./bin/xlsx.js"
+    "xlsx": "node ./bin/xlsx.js",
+    "generate": "node ./bin/index.js"
   },
   "repository": {
     "type": "git",
