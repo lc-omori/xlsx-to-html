@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "yarn xlsx && yarn generate && yarn beautify",
     "xlsx": "node ./bin/xlsx.js",
-    "generate": "node ./bin/index.js"
+    "generate": "node ./bin/index.js",
+    "beautify": "node ./bin/beautify.js"
   },
   "repository": {
     "type": "git",
